@@ -4,23 +4,24 @@
 }
 
 #active { 
-    background-color: rgb(255, 255, 255);
-    color: steelblue;
+    color: rgb(154, 209, 255);
 }
 
 body {
     background-color: antiquewhite;
+    margin: 0;
 }
 
 img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px solid steelblue;
 }   
 
 main p {
     width: 80%;
-    margin: 20px auto;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -30,21 +31,38 @@ a {
 
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 
-nav, footer {
+footer p {
+    font-size: 20px;     
+    margin: 20px auto;
+    padding: 25px;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
     text-align: center;
     background-color: steelblue;
     color: white;
     padding: 10px;
 }
 
-footer p {
-    font-size: 20px;     
-    margin: 20px auto;
+a {
+    color: white;
+    padding: 25px;
 }
 
-a:hover {
-    background-color: white;
-    color: steelblue;
+nav {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    padding: 25px;
 }

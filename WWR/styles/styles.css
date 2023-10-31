@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Shantell+Sans&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-img {
@@ -14,6 +17,12 @@ nav a {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: "Rock Salt";
+}
+
+#home-title {
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .button-box {
@@ -31,6 +40,14 @@ main section {
 
 body {
     background-color: #2abdfc;
+    font-family: 'Shantell Sans', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -44,6 +61,10 @@ nav a:hover {
 .book, .join {
     background-color: #059cca;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,10 +73,14 @@ nav a:hover {
 
 .msg {
     background-color: #0aa5ff;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #1b8ed1;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .mountains {
@@ -68,6 +93,7 @@ footer {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer a {
@@ -80,4 +106,29 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #084d76;
+}
+
+main section img {
+    box-sizing: border-box;
 }
