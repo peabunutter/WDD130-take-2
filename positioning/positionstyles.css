@@ -7,6 +7,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   gap: 20px;
+  max-width: 550px;
 }
 .red1 { 
   width: 100%; 
@@ -16,14 +17,14 @@
 
 } 
 .green1 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
 
 } 
 .yellow1 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: gold; 
 } 
 .blue1 {
