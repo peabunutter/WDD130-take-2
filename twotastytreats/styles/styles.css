@@ -272,9 +272,10 @@ li {
     width: 500px;
 }
 
-#small_alfredo {
+#small_alfredo, #small_bars {
     float: right;
     padding: 25px; 
+    width: 268px;
 }
 
 #finished {
