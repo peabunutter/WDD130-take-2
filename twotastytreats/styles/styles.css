@@ -220,3 +220,70 @@ footer a:nth-of-type(9) {
     padding-left: 200px;
     width: 64px;
 }
+
+#recipe {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 0.3fr 0.4fr 2fr ;
+}
+
+#recipe_heading {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-left: 25px;
+    background-color: #C4B1AE;
+}
+
+#ingredients {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    height: 50%;
+    padding-left: 25px;
+    height: auto;
+    font-size: large;
+    background-color: #C4B1AE;
+    height: fit-content;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#instructions {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #C4B1AE;
+    font-size: large;
+}
+
+#instructions li {
+    width: 79%;
+}
+
+#finished {
+    width: 500px;
+}
+
+#small_alfredo {
+    float: right;
+    padding: 25px; 
+}
+
+#finished {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h3 {
+    width: 60%;
+}
