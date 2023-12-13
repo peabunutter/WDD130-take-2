@@ -211,13 +211,13 @@ footer a:nth-of-type(8) {
     grid-column: 4/5;
     grid-row: 2/3;
     width: 64px;
-    padding-left: 100px;
+    margin-left: 100px;
 }
 
 footer a:nth-of-type(9) {
     grid-column: 4/5;
     grid-row: 2/3;
-    padding-left: 200px;
+    margin-left: 200px;
     width: 64px;
 }
 
